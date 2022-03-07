@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Codecool.SixHandshakes</name>
+    </assembly>
+    <members>
+        <member name="P:Codecool.SixHandshakes.Model.UserNode.Depth">
+            <summary>
+                This value is used by the shortest path finder
+            </summary>
+        </member>
+        <member name="T:Codecool.SixHandshakes.Program">
+            <summary>
+            This is the main class of your program which contains Main method
+            </summary>
+        </member>
+    </members>
+</doc>
