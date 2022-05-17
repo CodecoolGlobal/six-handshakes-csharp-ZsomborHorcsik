@@ -27,6 +27,12 @@ namespace Codecool.SixHandshakes.Model
             Friends = new HashSet<UserNode>();
         }
 
+        public bool Adjacent(UserNode node)
+        {
+            if (Friends.Contains(node)) return true;
+            else return false;
+        }
+
         public void AddFriend(UserNode friend)
         {
             Friends.Add(friend);

@@ -26,7 +26,7 @@ namespace Codecool.SixHandshakes
             "Smith", "Johnson", "Williams", "Jones", "Brown", "Davis", "Miller", "Wilson"
         };
 
-        public static IEnumerable<UserNode> Generate()
+        public static List<UserNode> Generate()
         {
             var users = new List<UserNode>();
             var firstUser = CreateNewUser();
