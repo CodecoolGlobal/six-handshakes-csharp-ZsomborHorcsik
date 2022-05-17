@@ -15,6 +15,10 @@ namespace Codecool.SixHandshakes
         {
             List<UserNode> Nodes = RandomDataGenerator.Generate();
             Console.WriteLine(HandshakeCalculator.GetMinimumHandshakesBetween(Nodes[0], Nodes[42]));
+            Console.WriteLine(Nodes[42].ID);
+            Console.WriteLine();
+            Console.WriteLine();
+            FriendsOfFriendsFinder.TestOfFriendsOfFriends(Nodes[0], 2);
             Console.ReadLine();
 
             //Display.Display.Menu();
